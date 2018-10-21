@@ -1,6 +1,4 @@
 def greet(name):
    if name == "Johnny":
-       print ("Hello, my love!")
-   else:
-       print ("Hello, {name}!".format(name=name))
-
+       return "Hello, my love!"
+    return "Hello, {name}!".format(name=name)
